@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">	
+    <link rel="stylesheet" type="text/css" href="../style/stylepage/contact.css">
+    <link rel="stylesheet" type="text/css" href="../style/police.css">
+    <link rel="stylesheet" type="text/css" href="../style/font.css">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/animations.css">
+	    <link rel="stylesheet" type="text/css" href="../style/stylepage/parcours.css">
+	<link rel="stylesheet" href="./stylemedias.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>Portofolio</title>
+</head>
+
+<body>  
+
+    <header>
+
+        <h2>ME CONTACTER</h2>
+		<a id="retour" href="./categories.html">Retour</a>
+    </header>
+    <main>
+        <div id="gauche">
+            <p>Audrina</p>
+            <p>Lhotellier</p>
+            <p>E-mail: audrinalhotellier@gmail.com</p>
+            <p>Tel: 06.15.26.93.09</p>
+            
+            <div id="cv">
+                <p style="text-align: center;">Télécharger mon CV en PDF :</p>
+                <button value="Mon CV"><a style="font-size: 20px;" href="CV.pdf" download="cv_audrina-lhotellier" >Mon CV</a></button>
+            </div>
+            
+        </div>
+
+        <div id="droite">
+            <form action="/ma-page-de-traitement" method="post">
+                <div class="formulaire">
+                    <input type="text" id="name" name="nominternaute" value="Nom">
+                </div>
+                <div class="formulaire">
+                    <input type="text" id="name" name="prenominternaute" value="Prénom">
+                </div>
+                <div class="formulaire">
+                    <input type="email" id="mail" name="mailinternaute" value="Mail">
+                </div>
+                <div class="formulaire">
+                    <input type="text" id="mail" name="sujetmessage" value="Sujet">
+                </div>
+                <div>
+                    <textarea id="msg" name="contenumessage"></textarea>
+                </div>
+                <div class="formulaire">
+                    <input type="submit" id="envoyer" name="boutonenvoyer" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </main>
+	<ul class="medias">
+        <li class="bulle"> <a href="https://www.facebook.com/profile.php?id=100006299478303"> <img src="./Animation logo portfolio/assets/facebook.png" img alt= "facebook" class="logo-medias" ></a></li>
+		 <li class="bulle"> <a href="https://www.instagram.com/audrina.l/"> <img src="./Animation logo portfolio/assets/instagram.png" img alt= "instagram" class="logo-medias" ></a></li>
+       <li class="bulle"> <a href="https://fr.linkedin.com/"> <img src="./Animation logo portfolio/assets/LinkedIn.png" img alt= "linkedin" class="logo-medias" ></a></li>
+	   <li class="bulle"> <a href="https://www.behance.net/"> <img src="./Animation logo portfolio/assets/Behance.png" img alt= "behance" class="logo-medias" ></a></li>
+    </ul>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="app.js"></script>
+	<footer>
+		<p> BUT MMI 1ère année - Portfolio - Lhotellier Audrina </p>	
+	</footer>
+</body>
+
+</html>

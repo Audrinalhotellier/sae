@@ -1,0 +1,406 @@
+@media screen and (max-width: 767px) {
+    h2 {
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    #monparcours {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+		align-items: center;
+    }
+    
+	#retour{
+		display: none;
+	}
+    .containeurrow {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 50px;
+        animation: apparition 1s ease 1s 1 normal forwards;
+        opacity: 0;
+    }
+    
+    #flecheetparcours {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #fleche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #baton {
+        width: 5px;
+        height: 700px;
+        background-color: white;
+    }
+    
+    #bout {
+        width: 0px;
+        height: 0px;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 20px solid white;
+    }
+    
+    #parcours {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family: "roboto", arial, sans-serif;
+    }
+    
+    #presentation {
+        width: 200px;
+        height: 700px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 25px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    #presentation > p {
+        margin-top: 20px;
+		
+    }
+    
+    #textepresentation {
+        
+        font-size: 20px;
+        width: 650px;
+		 width: 200px;
+         height: 700px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    h2 {
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    #monparcours {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    
+    .containeurrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 10vh;
+        animation: apparition 1s ease 1s 1 normal forwards;
+        opacity: 0;
+    }
+    
+    #flecheetparcours {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #fleche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #baton {
+        width: 5px;
+        height: 350px;
+        background-color: white;
+    }
+    
+    #bout {
+        width: 0px;
+        height: 0px;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 20px solid white;
+    }
+    
+    #parcours {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family: "roboto", arial, sans-serif;
+    }
+    
+    #presentation {
+        width: 550px;
+        height: 350px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    #presentation > p {
+        margin-top: 20px;
+    }
+    
+    #textepresentation {
+        
+        font-size: 20px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
+    h2 {
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    #monparcours {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    
+    .containeurrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 15vh;
+        animation: apparition 1s ease 1s 1 normal forwards;
+        opacity: 0;
+    }
+    
+    #flecheetparcours {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #fleche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #baton {
+        width: 5px;
+        height: 700px;
+        background-color: white;
+    }
+    
+    #bout {
+        width: 0px;
+        height: 0px;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 20px solid white;
+    }
+    
+    #parcours {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 40px;
+        font-family: "roboto", arial, sans-serif;
+    }
+    
+    #presentation {
+        width: 350px;
+        height: 700px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 40px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    #presentation > p {
+        margin-top: 25px;
+    }
+    
+    #textepresentation {
+        
+        font-size: 30px;
+        width: 325px;
+    }
+}
+
+@media only screen 
+and (min-width : 1024px) and (max-width: 1823px){
+    h2 {
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    #monparcours {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    
+    .containeurrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 20vh;
+        animation: apparition 1s ease 1s 1 normal forwards;
+        opacity: 0;
+    }
+    
+    #flecheetparcours {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #fleche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #baton {
+        width: 5px;
+        height: 350px;
+        background-color: white;
+    }
+    
+    #bout {
+        width: 0px;
+        height: 0px;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 20px solid white;
+    }
+    
+    #parcours {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family: "roboto", arial, sans-serif;
+    }
+    
+    #presentation {
+        width: 400px;
+        height: 400px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    #presentation > p {
+        margin-top: 20px;
+    }
+    
+    #textepresentation {
+        
+        font-size: 20px;
+        width: 300px;
+    }
+}
+
+@media only screen 
+and (min-width : 1824px){
+    h2 {
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    #monparcours {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    
+    .containeurrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 50px;
+        animation: apparition 1s ease 1s 1 normal forwards;
+        opacity: 0;
+    }
+    
+    #flecheetparcours {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #fleche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #baton {
+        width: 5px;
+        height: 700px;
+        background-color: white;
+    }
+    
+    #bout {
+        width: 0px;
+        height: 0px;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 20px solid white;
+    }
+    
+    #parcours {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 40px;
+        font-family: "roboto", arial, sans-serif;
+    }
+    
+    #presentation {
+        width: 700px;
+        height: 700px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 40px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    #presentation > p {
+        margin-top: 50px;
+    }
+    
+    #textepresentation {
+        
+        font-size: 40px;
+        width: 650px;
+    }
+}
+

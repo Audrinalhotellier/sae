@@ -1,0 +1,265 @@
+@media only screen and (max-width: 767px) {
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+
+    #presentation {
+        margin-top: 64px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+		
+    
+    #containerlogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+
+    #presentation {
+        margin-top: 64px;
+		width: 70px;
+        height: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+
+    #presentation {
+        margin-top: 64px;
+		width: 70px;
+        height: 70px;
+    }
+
+}
+
+@media only screen 
+and (min-width : 1024px) and (max-width: 1823px){
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 12.5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+	#presentation {
+		width: 70px;
+        height: 70px;
+    }
+}
+
+@media only screen 
+and (min-width : 1824px){
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    main {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 128px;
+        height: 128px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 128px;
+        height: 128px;
+        margin-right: 32px;
+    }
+	#presentation {
+        margin-top: 64px;
+		width: 70px;
+        height: 70px;
+    }
+}

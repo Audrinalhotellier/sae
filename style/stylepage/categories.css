@@ -1,0 +1,123 @@
+@media screen and (max-width: 767px) {
+    nav {
+		margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+	
+	footer {
+		background-color : grey;
+		text-align:center;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    nav {
+		margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+	footer {
+		background-color : grey;
+		text-align:center;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
+    nav {
+		margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 60px;
+        margin-top: 15vh;
+    }
+	footer {
+		background-color : grey;
+		text-align:center;
+	}
+}
+
+@media only screen 
+and (min-width : 1024px) and (max-width: 1823px){
+    nav {
+		margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+	footer {
+		background-color : grey;
+		text-align:center;
+	}
+}
+
+@media only screen 
+and (min-width : 1824px){
+    nav {
+	margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+	footer {
+		background-color : grey;
+		text-align:center;
+	}
+ 
+}
