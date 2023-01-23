@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./css/pollution.css" rel="stylesheet" />
+    <link href="./pollution.css" rel="stylesheet" />
     <script>
       src = "echarts.min.js";
     </script>
@@ -19,12 +19,12 @@
   <body>
     <header>
       <h1>
-        <img src="assets/presentation.svg" />
+        <img src="presentation.svg" />
       </h1>
     </header>
     <main>
       <div class="headline">
-        <img src="assets/textepresentation.svg" />
+        <img src="textepresentation.svg" />
       </div>
 
       <section>
@@ -57,7 +57,7 @@
       </section>
       <section>
         <div class="headline">
-          <img id="graph" src="assets/CORSE USINE.svg" />
+          <img id="graph" src="CORSE USINE.svg" />
         </div>
         <h2>
           LES DIFFERENTES STATION EN CORSE
@@ -116,7 +116,7 @@
           </p>
         </h2>
         <div class="headline">
-          <img id="graph" src="assets/SANTE2.svg" />
+          <img id="graph" src="SANTE2.svg" />
         </div>
       </section>
       <section>
@@ -150,7 +150,7 @@
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.js"></script>
 
     <script>
-      fetch("./json/pollution.json")
+      fetch("./pollution.json")
         .then((response) => response.json())
         .then((json) => {
           const groupBytest = json.reduce((acc, current) => {
@@ -284,7 +284,7 @@
 
     <footer>
       <div class="headline">
-        <img src="assets/footer.svg" />
+        <img src="footer.svg" />
       </div>
     </footer>
 
